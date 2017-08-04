@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+    lugar: string = 'Parque Boomerang';
+    lat: number = 18.8601938;
+    lng: number = -97.1115161;
+    zoom: number = 17;
 }
