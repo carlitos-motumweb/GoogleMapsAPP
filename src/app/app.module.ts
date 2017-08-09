@@ -6,6 +6,8 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 
+import { MapasService } from './servicios/mapas.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,7 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
       apiKey: 'AIzaSyDi6D1qci7NI5CYYfu-4GyEfc4ti99N1hw'
     })
   ],
-  providers: [],
+  providers: [MapasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
